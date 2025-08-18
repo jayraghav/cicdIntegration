@@ -11,8 +11,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.supervisorScope
 
@@ -57,7 +55,7 @@ class MainActivity : AppCompatActivity() {
     {
         delay(1500)
         Log.e("second exit","asdasd 2")
-        throw IllegalStateException("Error in coroutine 2")
+
         return 15
     }
     private suspend fun getSuperLike():Int
