@@ -48,14 +48,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-
     private suspend fun getLikes():Int {
         delay(3000)
         Log.e("fist exit","asdasd   1")
         return 10
-
-
     }
     private suspend fun getComment():Int
     {
@@ -64,12 +60,10 @@ class MainActivity : AppCompatActivity() {
         throw IllegalStateException("Error in coroutine 2")
         return 15
     }
-
     private suspend fun getSuperLike():Int
     {
         delay(2000)
         Log.e("fist third","asdasd, 3")
         return 67
     }
-
 }
