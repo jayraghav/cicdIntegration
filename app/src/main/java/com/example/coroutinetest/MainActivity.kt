@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         Log.e("second exit","asdasd 2")
         throw IllegalStateException("Error in coroutine 2")
         return 15
-    }96
+    }
 
     private suspend fun getSuperLike():Int
     {
