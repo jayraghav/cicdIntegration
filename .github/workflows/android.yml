@@ -18,3 +18,4 @@ jobs:
         with:
           name: lint.html
           path: D:/AndroidStudioProjects/latest/app/build/reports/lint-results-debug.html
+
