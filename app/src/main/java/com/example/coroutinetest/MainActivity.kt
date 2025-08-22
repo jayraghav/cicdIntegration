@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
+
+
         CoroutineScope(Dispatchers.IO+ SupervisorJob()).launch {
             supervisorScope {
                 val handler = CoroutineExceptionHandler { _, ex ->
