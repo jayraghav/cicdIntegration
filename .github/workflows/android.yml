@@ -17,4 +17,5 @@ jobs:
         uses: actions/upload-artifact@v4  # Updated to v4
         with:
           name: lint.html
-          path: latest/app/build/reports/lint-results-debug.html
+          path: D:/AndroidStudioProjects/latest/app/build/reports/lint-results-debug.html
+
